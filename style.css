@@ -50,3 +50,41 @@ body{
 .custrom-input::placeholder{
     color: #b1b8c0;
 }
+
+
+/* Inicio de Show case*/
+
+.showcase-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 60px;
+}
+
+.showcase-container > img{
+    width: 220.8px;
+    height: 191px;
+    
+}
+
+.showcase-container .showcase-text > h2:first-child{
+    font-size: 2.120rem;
+    font-weight: 700;
+    color: #2A394F;
+}
+.showcase-container .showcase-text > h2:last-child {
+    font-size: 3.190rem;
+    font-weight: 700;
+    color: #2A394F;
+}
+
+.showcase-container .showcase-text > p{
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: #9AA0A8;
+    line-height: 100%;
+    font-weight: 500;
+    font: medium;
+}
