@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+
+}
+
+html{
+    background-color: #e2eaf5;
+}
+
+body{
+   /* max-width: 1440px;  para telas maiores funciona muito bem*/ 
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.app-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 40px;
+    
+}
+
+.navbar-container{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-container > img{
+    margin-right: 20px;
+}
+
+.custrom-input{
+    border: none;
+    border-radius: 15px;
+    background-color: #fdfffe;
+    color: #232323;
+    padding: 16px;
+    width: 100%;
+
+}
+
+.custrom-input:focus{
+    outline: 2px solid #3aa2ff; 
+}
+.custrom-input::placeholder{
+    color: #b1b8c0;
+}
