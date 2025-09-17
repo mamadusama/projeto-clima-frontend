@@ -1,0 +1,212 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  background-color: #e2eaf5;
+}
+
+body {
+  /* max-width: 1440px;  para telas maiores funciona muito bem*/
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.app-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 40px;
+  grid-column-gap: 20px;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-container > img {
+  margin-right: 20px;
+}
+
+.custrom-input {
+  border: none;
+  border-radius: 15px;
+  background-color: #fdfffe;
+  color: #232323;
+  padding: 16px;
+  width: 100%;
+}
+
+.custrom-input:focus {
+  outline: 2px solid #3aa2ff;
+}
+.custrom-input::placeholder {
+  color: #b1b8c0;
+}
+
+/* Inicio de Show case*/
+
+.showcase-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 60px;
+}
+
+.showcase-container > img {
+  width: 220.8px;
+  height: 191px;
+}
+
+.showcase-container .showcase-text > h2:first-child {
+  font-size: 2.12rem;
+  font-weight: 700;
+  color: #2a394f;
+}
+.showcase-container .showcase-text > h2:last-child {
+  font-size: 3.19rem;
+  font-weight: 700;
+  color: #2a394f;
+}
+
+.showcase-container .showcase-text > p {
+  font-size: 15px;
+  margin-bottom: 15px;
+  color: #9aa0a8;
+  line-height: 100%;
+  font-weight: 500;
+  font: medium;
+}
+
+/* Previsão por hora */
+
+.hourly-forecast-container {
+  border-radius: 40px;
+  padding: 40px;
+  display: flex;
+  background: linear-gradient(90.28deg, #007dfe 0.22%, #3aa2ff 99.76%);
+  box-shadow: 0px 30px 50px -19px rgba(1, 126, 254, 0.5);
+  justify-content: space-between;
+}
+
+.hourly-forecast-container .hour-weather-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hourly-forecast-container .hour-weather-item p:first-child {
+  color: #fff;
+  opacity: 75%;
+  font-weight: 500;
+}
+.hourly-forecast-container .hour-weather-item p:last-child {
+  color: #fff;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.hourly-forecast-container .hour-weather-item > img {
+  width: 90px;
+  height: 90px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.weader-detail-container {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 190px);
+}
+.weader-detail-item {
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.weader-detail-item > p:first-child {
+  font-size: 14px;
+  color: #8f8f8f;
+  font-weight: 500;
+}
+
+.weader-detail-item .sensacao-termica {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.weader-detail-item .sensacao-termica > img {
+  width: 30px;
+  height: 30px;
+}
+
+.weader-detail-item .sensacao-termica > p {
+  color: #2a394f;
+  font-weight: 700;
+  font-size: 20px;
+}
+.weader-detail-item .sensacao-termica > p > span {
+  font-size: 12px;
+  color: #8f8f8f;
+}
+
+/* rigth-column */
+
+.rigth-column {
+  padding: 20px;
+  background-color: #fdfffe;
+  margin-top: 50px;
+  border-radius: 40px;
+}
+.rigth-column .weekendly-detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.rigth-column .weekendly-detail > p {
+  font-size: 14px;
+  color: #8f8f8f;
+  font-weight: 500;
+}
+.rigth-column .weekendly-detail > div {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.rigth-column .weekendly-detail > div p:first-child {
+  font-size: 14px;
+  color: #2a394f;
+  font-weight: 500;
+}
+.rigth-column .weekendly-detail > div p:last-child {
+  font-size: 12px;
+  color: #8f8f8f;
+  font-weight: 500;
+}
+
+.rigth-column .weekendly-detail > img {
+  width: 40px;
+  height: 40px;
+}
+
+.rigth-column .weekendly-detail > p,
+.rigth-column .weekendly-detail > img,
+.rigth-column .weekendly-detail > div {
+  flex: 1;
+}
