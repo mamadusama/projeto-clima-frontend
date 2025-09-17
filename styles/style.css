@@ -123,8 +123,10 @@ body {
 .weader-detail-container {
   margin-top: 40px;
   display: grid;
-  grid-template-columns: repeat(4, 190px);
+  grid-template-columns: repeat(4, 220px);
+  grid-column-gap: 15px;
 }
+
 .weader-detail-item {
   background-color: #fff;
   border-radius: 30px;
@@ -188,6 +190,7 @@ body {
   display: flex;
   align-items: center;
   gap: 3px;
+  justify-content: flex-end;
 }
 .rigth-column .weekendly-detail > div p:first-child {
   font-size: 14px;
