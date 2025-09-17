@@ -47,8 +47,8 @@ O **Clima Hoje** é um projeto de interface front-end que demonstra habilidades 
 1. **Clone o repositório**
 
    ```bash
-   git clone https://github.com/seu-usuario/clima-hoje.git
-   cd clima-hoje
+   git clone https://github.com/mamadusama/projeto-clima-frontend.git
+   cd projeto-clima-frontend
    ```
 
 2. **Abra no navegador**
@@ -57,20 +57,6 @@ O **Clima Hoje** é um projeto de interface front-end que demonstra habilidades 
    # Simplesmente abra o arquivo index.html
    # em qualquer navegador moderno
    open index.html
-   ```
-
-3. **Ou use um servidor local (opcional)**
-
-   ```bash
-   # Para melhor experiência de desenvolvimento
-   python -m http.server 8000
-   # ou
-   npx serve .
-   ```
-
-4. **Acesse no navegador**
-   ```
-   http://localhost:8000
    ```
 
 ## 📸 Screenshots
