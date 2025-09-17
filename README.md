@@ -115,7 +115,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 📞 Contato
 
-**Seu Nome** - [mamadusama12@email.com](mailto:seu-email@email.com)
+**Mamadu Sama** - [mamadusama12@email.com](mailto:seu-email@email.com)
 
 **LinkedIn**: [mamadusama](https://linkedin.com/in/mamadusama)
 
